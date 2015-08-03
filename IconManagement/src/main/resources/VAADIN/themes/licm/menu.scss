@@ -1,0 +1,511 @@
+
+
+
+
+@mixin pike-menu {
+
+
+
+	.selected{
+		color: #e1e1e1;
+		text-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
+		background: url(img/sidebar/sidebar-bg-sprite.png) rgba(0, 0, 0, 0.1) no-repeat 100% -88px !important;
+		background: -moz-linear-gradient(top, #2d2f30 0%, #333537 10%, #333537 90%, #2d2f30 100%);
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #2d2f30), color-stop(10%, #333537), color-stop(90%, #333537), color-stop(100%, #2d2f30));
+		background: -webkit-linear-gradient(top, #2d2f30 0%, #333537 10%, #333537 90%, #2d2f30 100%);
+		background: -o-linear-gradient(top, #2d2f30 0%, #333537 10%, #333537 90%, #2d2f30 100%);
+		background: -ms-linear-gradient(top, #2d2f30 0%, #333537 10%, #333537 90%, #2d2f30 100%);
+		/* background: linear-gradient(to bottom, #2d2f30 0%,#333537 10%,#333537 90%,#2d2f30 100%); */
+		-webkit-transition: none;
+	}
+
+
+	.child{
+		color: #e1e1e1;
+		-webkit-transition: none;
+		width: 80%;
+		left: 20%;
+		height: 22px !important;
+		padding: 0px;
+		border-radius: 5px 0 0 5px;
+		text-align: right;
+		padding-right: 5px;
+		padding-top:0px!important;
+		border-bottom: 1px solid #3276b1;
+		font-size: 10px !important;
+	}
+	.childselected {
+		background: rgba(65, 135, 200, 0.8) !important;
+	}
+
+  .valo-menu {
+    border-right: none;
+	background: #37353b url(img/bg/pike-back-bg.png) no-repeat !important;
+	background-size: 100% 100% !important;
+     .valo-menu-part {
+width: 200px;
+}
+    .badgewrapper {
+      position: relative;
+      padding: 0 !important;
+    }
+  }
+
+
+	
+  
+	
+	
+	
+	
+  .valo-menu-item {
+    overflow: hidden;
+
+  }
+  
+  valo-menu-item:hover {
+  	color: white;
+  }
+  
+  
+
+	.v-ui[width-range~="1101px-"] {
+		 .valo-menu-item {
+		 	 height: 50px ;
+		 	 padding-top: 10px;								
+		 }
+	}
+	
+  .v-ui[width-range~="0-800px"] {
+  
+  
+  	.valo-menu-part {
+  		display : none;
+	}
+  
+  	.valo-menu-item {
+		height: 50px ;
+		padding-top: 10px;								
+	}
+  
+	
+ 	 .valo-menu-title {
+		background: transparent;
+		-webkit-box-shadow: none;
+		box-shadow: none;
+		border-bottom: none;
+		background-color: #414B56;
+		background-image: -webkit-linear-gradient(top, #46515c 2%, #38424b 98%);
+		background-image: linear-gradient(to bottom,#46515c 2%, #38424b 98%);
+		border-bottom-color: #333b43;
+	  background: transparent;
+      @include box-shadow(none);
+      border-bottom: none;
+	}
+	
+	
+	.valo-menu-visible .valo-menu-part {
+		display: block !important;
+	}
+  
+  	.valo-menu-visible .valo-menuitems {
+		-webkit-transform: translatex(0%);
+		-moz-transform: translatex(0%);
+		-ms-transform: translatex(0%);
+		-o-transform: translatex(0%);
+		transform: translatex(0%);
+	}
+  
+  	.valo-menu-title {
+		position: fixed;
+		z-index: 100;
+		top: 0;
+		left: 0;
+		right: 0;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+  
+  	.valo-menu {
+		border-right: none;
+	}
+  
+  
+  	.valo-menuitems {
+		height: 100%;
+		color: #888a8c;
+		background: #37353b url(img/bg/pike-back-bg.png) no-repeat !important;
+		background-size: 100% 100% !important;
+		color: #9ca5af;
+		font-size: 14px;
+		line-height: 30px;
+		border-right: 1px solid #333b43;
+		white-space: nowrap;
+		position: fixed;
+		z-index: 200;
+		top: 41px;
+		bottom: 0;
+		height: auto;
+		max-width: 100%;
+		overflow: auto;
+		-webkit-transform: translatex(-100%);
+		-moz-transform: translatex(-100%);
+		-ms-transform: translatex(-100%);
+		-o-transform: translatex(-100%);
+		transform: translatex(-100%);
+		-webkit-transition: all 300ms;
+		-moz-transition: all 300ms;
+		transition: all 300ms;
+	}
+  
+  
+    .valo-menu-title {
+      @include valo-gradient($color: $valo-menu-background-color);
+      border-bottom-color: first-color(valo-border($color: $valo-menu-background-color));
+    }
+    .valo-menu .v-menubar-user-menu {
+      color: inherit;
+    }
+    
+    .v-menubar-user-menu > .v-menubar-menuitem {
+      max-width: none;
+      margin-right: .5em;
+
+      .v-menubar-menuitem-caption:after {
+        margin-right: 0;
+      }
+    }
+    
+  }
+
+
+	.v-ui[width-range~="801px-1100px"] {
+		.valo-menu-part {
+			min-width: 74px !important;
+			max-width: 111px !important;
+			
+			.valo-menu-item:first-child {
+				border-top: none;
+			}
+			
+			.valo-menu-item {
+				display: block;
+				font-size: 26px;
+				line-height: 1;
+				padding: 12px;
+				text-align: center;
+				border-top: 1px solid #4c5560;
+			}
+		}
+		
+		.child{
+			height: 22px !important;
+			width : 66px !important;
+		}
+		
+		
+		.valo-menu-part .valo-menu-item [class*="caption"] {
+				display: block;
+				width: auto;
+				margin: 0.3em 0 0;
+				padding: 0;
+				font-size: 11px;
+				line-height: 1.3;
+		}
+		.valo-menu-part .valo-menu-item .v-icon {
+				margin: 0;
+		}
+			
+		.valo-menu-part .valo-menu-item span.v-icon {
+				opacity: 0.8;
+		}
+		
+	}
+	
+	
+
+
+	
+
+  .v-ui[width-range~="801px-"] {
+  
+  	.valo-menu-title {
+		background: transparent;
+		-webkit-box-shadow: none;
+		box-shadow: none;
+		border-bottom: none;
+		background-color: #414B56;
+		background-image: -webkit-linear-gradient(top, #46515c 2%, #38424b 98%);
+		background-image: linear-gradient(to bottom,#46515c 2%, #38424b 98%);
+		border-bottom-color: #333b43;
+	  background: transparent;
+      @include box-shadow(none);
+      border-bottom: none;
+	}
+  
+  	
+    .valo-menu {
+      @include animation(valo-animate-in-slide-right 700ms 700ms backwards);
+    }
+
+  }
+  
+  
+  
+
+  .valo-menu-title {
+    line-height: 1.2;
+  }
+
+  .v-menubar-user-menu:after {
+    display: none;
+  }
+
+  .v-menubar-user-menu > .v-menubar-menuitem {
+    display: block;
+    padding: 0;
+    max-width: 90%;
+    margin: 0 auto;
+
+    .v-menubar-menuitem-caption:after {
+      margin-right: -1em;
+    }
+
+    img.v-icon {
+      @if is-dark-color($valo-menu-background-color) {
+        border: none;
+      }
+    }
+  }
+
+
+  .valo-menu .valo-menu-badge,
+  .dashboard-view .notifications.unread .v-button-caption {
+    @include valo-badge-style;
+    position: absolute;
+    right: round($v-unit-size/3);
+    font-size: round($v-font-size * 0.9);
+    pointer-events: none;
+  }
+
+  .dashboard-view .notifications.unread .v-button-caption {
+    display: block;
+    top: round($v-unit-size / -5);
+    right: round($v-unit-size / -5);
+    display: block;
+    z-index: 1;
+  }
+
+  .profile-window {
+    max-height: round(30 * $v-font-size);
+    width: round(45 * $v-font-size);
+    max-width: 90%;
+
+    .v-tabsheet-content > div > .v-scrollable > .v-layout {
+      padding-left: $v-layout-margin-left;
+      padding-right: $v-layout-margin-right;
+    }
+
+    @include width-range($max: 700px) {
+      .profile-form > .v-expand {
+        padding-left: 0 !important;
+
+        > .v-slot {
+          display: block;
+          margin-left: 0 !important;
+        }
+        > .v-spacing {
+          height: $v-layout-spacing-vertical;
+        }
+      }
+    }
+
+    @include width-range($max: 600px) {
+      .v-tabsheet-content > div > .v-scrollable > .v-layout {
+        padding-left: round($v-layout-margin-left / 2);
+        padding-right: round($v-layout-margin-left / 2);
+      }
+      .v-formlayout > table,
+      .v-formlayout > table > tbody,
+      .v-formlayout-row {
+        display: block;
+      }
+      .v-formlayout > table > tbody {
+        .v-formlayout-captioncell,
+        .v-formlayout-errorcell,
+        .v-formlayout-contentcell {
+          display: inline-block;
+          height: auto;
+        }
+        .v-formlayout-captioncell,
+        .v-formlayout-errorcell {
+          border-bottom: none;
+          line-height: 1;
+          padding-left: 0;
+          padding-top: $v-layout-spacing-vertical;
+          text-align: left;
+        }
+        .v-caption-h4 {
+          height: 0;
+        }
+        .v-label-h4 {
+          position: static;
+        }
+        .v-horizontallayout {
+          height: auto !important;
+        }
+      }
+    }
+  }
+
+  .moviedetailswindow {
+    max-height: round(30 * $v-font-size);
+    width: round(45 * $v-font-size);
+    max-width: 90%;
+
+    .cover,
+    .v-slot-cover {
+      max-width: 100%;
+      width: 200px;
+      position: relative;
+    }
+
+    .cover {
+      @include box-shadow(valo-bevel-and-shadow($shadow: $v-overlay-shadow));
+      border-radius: $v-border-radius;
+    }
+
+    .v-slot-cover {
+
+      &:after {
+        content: "";
+        display: block;
+        background: url(img/poster-gloss.png) no-repeat top right;
+        background-size: contain;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+      }
+    }
+
+    @include width-range($max: round(40 * $v-font-size)) {
+      .v-expand {
+        padding-left: 0 !important;
+      }
+
+      .v-slot {
+        display: block;
+      }
+
+      .v-slot-cover {
+        margin: 0 auto !important;
+      }
+    }
+
+    .v-button-link {
+      padding: 0;
+      height: auto;
+    }
+
+  }
+
+  .vaadin-chart {
+  	transform: translateZ(0);
+  }
+
+  .viewheader {
+    
+    width: 100%;
+    text-align: right;
+    white-space: normal;
+
+    .v-slot-h1 {
+      float: left;
+    }
+
+    .h1 {
+      white-space: normal;
+    }
+
+    @include width-range($max: 700px) {
+      padding-bottom: round($v-unit-size / 2);
+      text-align: left;
+
+      .v-slot-h1 {
+        float: none;
+      }
+
+      .h1 {
+        font-size: round($v-font-size--h1 * 0.8);
+      }
+
+      > .v-slot {
+        display: block;
+      }
+
+      .toolbar {
+        white-space: normal;
+
+        > .v-spacing {
+          height: round($v-unit-size / 4);
+        }
+      }
+    }
+  }
+
+  .v-caption.v-caption-caption-on-left {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 37px;
+    margin-right: $v-layout-spacing-horizontal;
+  }
+
+
+  // iOS7 & iOS8 status bar needs more space
+  .v-ios7,
+  .v-ios8 {
+    .v-ui {
+      @include box-sizing(border-box);
+      padding-top: 20px;
+      background-color: $valo-menu-background-color;
+
+      > .v-widget {
+        position: relative !important;
+      }
+    }
+    .valo-menu-title {
+      padding-top: 10px;
+    }
+    .view-content {
+      border-top-left-radius: $v-border-radius;
+      background-color: $v-app-background-color;
+    }
+  }
+
+  .v-ios7 & .v-ui[width-range~="0-800px"],
+  .v-ios8 & .v-ui[width-range~="0-800px"] {
+    padding-top: 20px + $v-unit-size;
+
+    .v-loading-indicator {
+      top: 20px + $v-unit-size - 3px;
+      height: 3px;
+    }
+
+    .valo-menu-title {
+      height: 20px + $v-unit-size !important;
+      padding-top: 20px;
+    }
+    .valo-menu-toggle,
+    .user-menu {
+      margin-top: 20px;
+    }
+    .valo-menuitems {
+      top: 20px + $v-unit-size;
+    }
+    .view-content {
+      border-radius: 0;
+    }
+  }
+}

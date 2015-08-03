@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ClassDiagram>
+    <Class name="com.polelink.modules.file.entity.FileVersionBean"
+        x="918" y="254">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Association
+            destinationClassName="com.polelink.modules.file.entity.FileStatusBean"
+            endpointName="status" kind="Simple"/>
+        <Association
+            destinationClassName="com.polelink.modules.file.entity.FileBean"
+            endpointName="file" kind="Simple"/>
+    </Class>
+    <Class name="com.polelink.modules.file.entity.FileOperationTypeBean"
+        x="101" y="255">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+    </Class>
+    <Class name="com.polelink.modules.file.entity.FileCategoryBean"
+        x="744" y="96">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Association
+            destinationClassName="com.polelink.modules.file.entity.FileCategoryBean"
+            endpointName="parent" kind="Simple"/>
+    </Class>
+    <Class name="com.polelink.modules.file.entity.FileStatusBean"
+        x="453" y="383">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+    </Class>
+    <Class name="com.polelink.modules.file.entity.FileOperationBean"
+        x="34" y="35">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Association
+            destinationClassName="com.polelink.modules.file.entity.FileOperationTypeBean"
+            endpointName="operationType" kind="Simple"/>
+    </Class>
+    <Class name="com.polelink.modules.file.entity.FileBean" x="372" y="123">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="false"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="false" protected-accepted="false"
+            default-accepted="false" static-accepted="false"
+            accessors-accepted="false" constructors-accepted="false"/>
+        <Association
+            destinationClassName="com.polelink.modules.file.entity.FileCategoryBean"
+            endpointName="fileCategory" kind="Simple"/>
+    </Class>
+</ClassDiagram>

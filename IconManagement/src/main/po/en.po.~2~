@@ -1,0 +1,458 @@
+# English translations for p package.
+# Copyright (C) 2014 THE p'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the p package.
+# Automatically generated, 2014.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: p 3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-06-25 22:25+0800\n"
+"PO-Revision-Date: 2014-07-22 16:37+0800\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: com/polelink/modules/file/entity/FileVersionBean.getFilePath()Ljava/lang/String;
+msgid "Parameter File_Store_Path not set"
+msgstr "Parameter File_Store_Path not set"
+
+#: com/polelink/modules/file/impl/FileDownloadImpl$4.save()Z
+msgid "Are you sure to select these files?"
+msgstr "Are you sure to select these files?"
+
+#: com/polelink/modules/file/impl/FileDownloadImpl$8.valueChanged(Ljava/lang/Object;Z)V
+msgid "Are you sure to select file:{0} and version {1}"
+msgstr "Are you sure to select file:{0} and version {1}"
+
+#: com/polelink/modules/file/impl/FileDownloadImpl.getFileSelectionLayout(Ljava/util/List;Z)Lcom/vaadin/ui/Component;
+msgid "File Suffix:"
+msgstr "File Suffix"
+
+#: com/polelink/modules/file/impl/FileDownloadImpl.getFileSelectionWindow(Ljava/util/List;Z)Lcom/polelink/pike/extend/component/window/PWindow;
+msgid "Select File [{0}]"
+msgstr "Select File [{0}]"
+
+#: com/polelink/modules/file/impl/FileDownloadImpl.getFileSelectionWindow(Ljava/util/List;Z)Lcom/polelink/pike/extend/component/window/PWindow;
+msgid "Click to confirm selected files"
+msgstr "Click to confirm selected files"
+
+#: com/polelink/modules/file/impl/FileDownloadImpl.getFileSelectionWindow(Ljava/util/List;Z)Lcom/polelink/pike/extend/component/window/PWindow;
+msgid "Select Files [{0}]"
+msgstr "Select Files [{0}]"
+
+#: com/polelink/modules/file/impl/FileDownloadImpl.checkFileNoExists(Ljava/lang/String;)Z
+msgid "File No. can't be empty"
+msgstr "File No. can not be empty"
+
+#: com/polelink/modules/file/impl/FileDownloadImpl.checkFileNoExists(Ljava/lang/String;)Z
+msgid "File No. {0} belongs to file:{1},but it's disable"
+msgstr "File No. {0} belongs to file:{1},but it's disable"
+
+#: com/polelink/modules/file/impl/FileDownloadImpl.checkFileNoExists(Ljava/lang/String;)Z
+msgid "File No. {0} is disable"
+msgstr "File No. {0} is disable"
+
+#: com/polelink/modules/file/impl/FileDownloadImpl.downloadFile(Ljava/lang/String;Ljava/lang/String;)Ljava/io/InputStream;
+msgid "File no. is empty!"
+msgstr "File no. is empty!"
+
+#: com/polelink/modules/file/impl/FileDownloadImpl.downloadFile(Ljava/lang/String;Ljava/lang/String;)Ljava/io/InputStream;
+msgid "File source path is empty!"
+msgstr "File source path is empty!"
+
+#: com/polelink/modules/file/impl/FileUploadImpl.uploadVersion(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/io/InputStream;J)Ljava/lang/String;
+msgid "File does not exists: "
+msgstr "File does not exists:"
+
+#: com/polelink/modules/file/impl/FileUploadImpl.uploadVersion(Ljava/lang/String;Lcom/polelink/modules/file/entity/FileBean;Ljava/lang/String;Ljava/lang/String;Ljava/io/InputStream;J)Ljava/lang/String;
+msgid "Directory does not exists: "
+msgstr "Directory does not exists:"
+
+#: com/polelink/modules/file/impl/FileUploadImpl.uploadFile(Ljava/lang/String;Lcom/polelink/modules/file/entity/FileBean;Ljava/lang/String;Ljava/lang/String;Ljava/io/InputStream;J)Ljava/lang/String;
+msgid "NO Permisson"
+msgstr "NO Permisson"
+
+#: com/polelink/modules/file/impl/FileUploadImpl$1$1.beforeDownload(Lcom/polelink/pike/extend/component/file/AdvancedFileDownloader$DownloaderEvent;)Z
+msgid "File store path parameter does not set."
+msgstr "File store path parameter does not set."
+
+#: com/polelink/modules/file/ui/MyFileView$8$4.beforeDownload(Lcom/polelink/pike/extend/component/file/AdvancedFileDownloader$DownloaderEvent;)Z
+msgid "File store path is not exist."
+msgstr "File store path is not exist."
+
+#: com/polelink/modules/file/impl/FileUploadImpl.uploadVersion(Ljava/lang/String;Lcom/polelink/modules/file/entity/FileBean;Ljava/lang/String;Ljava/lang/String;Ljava/io/InputStream;J)Ljava/lang/String;
+msgid "NO Permission"
+msgstr "NO Permisson"
+
+#: com/polelink/modules/file/impl/FileUploadImpl.storeFile(Ljava/io/InputStream;Ljava/lang/Long;Ljava/lang/String;Ljava/lang/String;)Z
+msgid "Can not create file: "
+msgstr "Can not create file:"
+
+#: com/polelink/modules/file/impl/FileUploadImpl.uploadFile(Ljava/lang/String;Lcom/polelink/modules/file/entity/FileBean;Ljava/lang/String;Ljava/lang/String;Ljava/io/InputStream;J)Ljava/lang/String;
+msgid "Can not save file to database: "
+msgstr "Can not save file to database:"
+
+#: com/polelink/modules/file/impl/FileUploadImpl.uploadVersion(Ljava/lang/String;Lcom/polelink/modules/file/entity/FileBean;Ljava/lang/String;Ljava/lang/String;Ljava/io/InputStream;J)Ljava/lang/String;
+msgid "Can not save file to directory: "
+msgstr "Can not save file to directory:"
+
+#: com/polelink/modules/file/impl/FileUploadImpl.uploadFile(Ljava/lang/String;Lcom/polelink/modules/file/entity/FileBean;Ljava/lang/String;Ljava/lang/String;Ljava/io/InputStream;J)Ljava/lang/String;
+msgid "File's size must greater than zero."
+msgstr "File size must greater than zero."
+
+#: com/polelink/modules/file/impl/FileUploadImpl.uploadVersion(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/io/InputStream;J)Ljava/lang/String;
+msgid "File content is empty."
+msgstr "File content is empty."
+
+#: com/polelink/modules/file/impl/FileUploadImpl.uploadFile(Ljava/lang/String;Lcom/polelink/modules/file/entity/FileBean;Ljava/lang/String;Ljava/lang/String;Ljava/io/InputStream;J)Ljava/lang/String;
+msgid "Can not found the file."
+msgstr "Can not found the file."
+
+#: com/polelink/modules/file/impl/FileUploadImpl.uploadVersion(Ljava/lang/String;Lcom/polelink/modules/file/entity/FileBean;Ljava/lang/String;Ljava/lang/String;Ljava/io/InputStream;J)Ljava/lang/String;
+msgid "File's size must greater than zero. "
+msgstr "File size must larger than zero!"
+
+#: com/polelink/modules/file/impl/FileUploadImpl.uploadVersion(Ljava/lang/String;Lcom/polelink/modules/file/entity/FileBean;Ljava/lang/String;Ljava/lang/String;Ljava/io/InputStream;J)Ljava/lang/String;
+msgid "File content is empty. "
+msgstr "File content is empty."
+
+#: com/polelink/modules/file/impl/FileUploadImpl.uploadVersion(Ljava/lang/String;Lcom/polelink/modules/file/entity/FileBean;Ljava/lang/String;Ljava/lang/String;Ljava/io/InputStream;J)Ljava/lang/String;
+msgid "Not found the file. "
+msgstr "Not found the file."
+
+#: com/polelink/modules/file/impl/FileUploadImpl.getLatestVersionBean(Ljava/lang/String;Ljava/lang/String;Lcom/polelink/pike/core/database/entity/PikeEnabledStatus;)Lcom/polelink/modules/file/entity/FileVersionBean;
+msgid "File name is empty."
+msgstr "File name is empty."
+
+#: com/polelink/modules/file/impl/FileUploadImpl.uploadFile(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/io/InputStream;J)Ljava/lang/String;
+msgid "No file source found:"
+msgstr "No file source found:"
+
+#: com/polelink/modules/file/impl/FileUploadImpl.uploadFile(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/io/InputStream;J)Ljava/lang/String;
+msgid "File is exists:"
+msgstr "File is exists:"
+
+#: com/polelink/modules/file/impl/FileUploadImpl.uploadVersion(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/io/InputStream;J)Ljava/lang/String;
+msgid "File size must greater than zero."
+msgstr "File size must greater than zero."
+
+#: com/polelink/modules/file/impl/FileUploadImpl.getFileNo(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+msgid "Version name is empty."
+msgstr "Version name is empty."
+
+#: com/polelink/modules/file/impl/FileUploadImpl.getFileVersionBeans(Ljava/lang/String;Ljava/lang/String;Lcom/polelink/pike/core/database/entity/PikeEnabledStatus;)Ljava/util/List;
+msgid "Disabled file: "
+msgstr "Disabled file:"
+
+#: com/polelink/modules/file/impl/FileUploadImpl.getLatestVersionBean(Ljava/lang/String;Ljava/lang/String;Lcom/polelink/pike/core/database/entity/PikeEnabledStatus;)Lcom/polelink/modules/file/entity/FileVersionBean;
+msgid "Disabled version: "
+msgstr "Disabled version:"
+
+#: com/polelink/modules/file/impl/FileUploadImpl.getFileNo(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+msgid "Version not found: "
+msgstr "Version not found:"
+
+#: com/polelink/modules/file/impl/FileUploadImpl.getFileVersionBeans(Ljava/lang/String;Ljava/lang/String;Lcom/polelink/pike/core/database/entity/PikeEnabledStatus;)Ljava/util/List;
+msgid "File not found: "
+msgstr "File not found:"
+
+#: com/polelink/modules/file/impl/FileUploadImpl.getFileNo(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+msgid "Disable category: "
+msgstr "Disable category:"
+
+#: com/polelink/modules/file/impl/FileUploadImpl.getLatestVersionBean(Ljava/lang/String;Ljava/lang/String;Lcom/polelink/pike/core/database/entity/PikeEnabledStatus;)Lcom/polelink/modules/file/entity/FileVersionBean;
+msgid "File was disabled: "
+msgstr "File was disabled:"
+
+#: com/polelink/modules/file/impl/FileUploadImpl.getLatestVersionBean(Ljava/lang/String;Ljava/lang/String;Lcom/polelink/pike/core/database/entity/PikeEnabledStatus;)Lcom/polelink/modules/file/entity/FileVersionBean;
+msgid "File not found any version with enabled:"
+msgstr "File not found any version with enabled:"
+
+#: com/polelink/modules/file/impl/FileUploadImpl.getLatestVersionBean(Ljava/lang/String;Ljava/lang/String;Lcom/polelink/pike/core/database/entity/PikeEnabledStatus;)Lcom/polelink/modules/file/entity/FileVersionBean;
+msgid "No version found for file: "
+msgstr "No version found for file:"
+
+#: com/polelink/modules/file/impl/FileUploadImpl.getLatestVersionBean(Ljava/lang/String;Ljava/lang/String;Lcom/polelink/pike/core/database/entity/PikeEnabledStatus;)Lcom/polelink/modules/file/entity/FileVersionBean;
+msgid "Disabled category: "
+msgstr "Disabled category:"
+
+#: com/polelink/modules/file/impl/FileUploadImpl.getFileVersionBeans(Ljava/lang/String;Ljava/lang/String;Lcom/polelink/pike/core/database/entity/PikeEnabledStatus;)Ljava/util/List;
+msgid "File name is empty!"
+msgstr "File name is empty."
+
+#: com/polelink/modules/file/impl/FileUploadImpl.getFileVersionBeans(Ljava/lang/String;Ljava/lang/String;Lcom/polelink/pike/core/database/entity/PikeEnabledStatus;)Ljava/util/List;
+msgid "Disable category:"
+msgstr "Disable Category:"
+
+#: com/polelink/modules/file/impl/FileUploadImpl.modifyCategory(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Z
+msgid "Category name is empty."
+msgstr "Category name is empty"
+
+#: com/polelink/modules/file/impl/FileUploadImpl.createCategoryNotExists(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Z
+msgid "Category name is empty"
+msgstr "Category Name is empty"
+
+#: com/polelink/modules/file/impl/FileUploadImpl.createCategoryNotExists(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Z
+msgid "Parent category name can''t create"
+msgstr "New category Name is empty"
+
+#: com/polelink/modules/file/impl/FileUploadImpl.modifyCategory(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Z
+msgid "New category name is empty."
+msgstr "New category Name is empty"
+
+#: com/polelink/modules/file/impl/FileUploadImpl.modifyFileSource(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Z
+msgid "Source name is empty."
+msgstr "Source name is empty"
+
+#: com/polelink/modules/file/impl/FileUploadImpl.modifyFileSource(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Z
+msgid "New source name is empty."
+msgstr "New source name is empty"
+
+#: com/polelink/modules/file/ui/MyFileView$8.generateCell(Lcom/vaadin/ui/Table;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+msgid "Download"
+msgstr "Download"
+
+#: com/polelink/modules/file/macro/ImageMacro.clickMacro(Ljava/lang/Object;)V
+msgid "Image Viewer"
+msgstr "Image Viewer"
+
+#: com/polelink/modules/file/search/FileSearch.getHelpInfo()Ljava/lang/String;
+msgid "Prefix for search file using file name"
+msgstr "Prefix for search file with file name"
+
+#: com/polelink/modules/file/service/FileLogComponent.getComponentCaption()Ljava/lang/String;
+msgid "File Log"
+msgstr "File Log"
+
+#: com/polelink/modules/file/service/FileLogComponent.getHint()Ljava/lang/String;
+msgid "View File Log"
+msgstr "View File Log"
+
+#: com/polelink/modules/file/service/FileOperationComponent.getComponentCaption()Ljava/lang/String;
+msgid "File Operation Log"
+msgstr "File Operation Log"
+
+#: com/polelink/modules/file/service/FileOperationComponent.getHint()Ljava/lang/String;
+msgid "View File Operations"
+msgstr "View File Operations"
+
+#: com/polelink/modules/file/service/FileVersionComponent.refresh([Ljava/lang/Object;)V
+msgid "Class must have property named:"
+msgstr "Class must have property named:"
+
+#: com/polelink/modules/file/ui/MyFileView$8$4.beforeDownload(Lcom/polelink/pike/extend/component/file/AdvancedFileDownloader$DownloaderEvent;)Z
+msgid "File store path parameter was not set."
+msgstr "File store path parameter was not set."
+
+#: com/polelink/modules/file/ui/FilePlugin.getText()Ljava/lang/String;
+msgid "File"
+msgstr "File"
+
+#: com/polelink/modules/file/service/FileRalationComponent.getHint()Ljava/lang/String;
+msgid "File Related."
+msgstr "File Related."
+
+#: com/polelink/modules/file/service/FileRalationComponent.refresh([Ljava/lang/Object;)V
+msgid "Click to show detail information"
+msgstr "Click to show detail information"
+
+#: com/polelink/modules/file/service/FileVersionComponent$1.generateCell(Lcom/vaadin/ui/Table;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+msgid "Download file"
+msgstr "Download file"
+
+#: com/polelink/modules/file/service/FileVersionComponent.getComponentCaption()Ljava/lang/String;
+msgid "File Version"
+msgstr "File Version"
+
+#: com/polelink/modules/file/service/FileVersionComponent.getHint()Ljava/lang/String;
+msgid "View File Versions"
+msgstr "View File Versions"
+
+#: com/polelink/modules/file/service/FileVersionComponent.getFileBeanByFileNo(Ljava/lang/String;)Lcom/polelink/modules/file/entity/FileBean;
+msgid "Can not find version of file no:"
+msgstr "Can not find version of file no:"
+
+#: com/polelink/modules/file/ui/configure/FileCategoryRecoveryConfigureLayout$1.entityAction(Lcom/polelink/pike/extend/component/crud/base/EntityActionComponent$EntityActionEvent;)V
+msgid "Are you sure to recover category: "
+msgstr "Are you sure to recover category:"
+
+#: com/polelink/modules/file/ui/configure/FileCategoryRecoveryConfigureLayout$2.entityAction(Lcom/polelink/pike/extend/component/crud/base/EntityActionComponent$EntityActionEvent;)V
+msgid "Are you sure to delete file category and all child categories: "
+msgstr "Are you sure to delete file category and its child categories: "
+
+#: com/polelink/modules/file/ui/configure/FileRecoveryConfigureLayout.buildFileLayout()V
+msgid "Recovery"
+msgstr "Recovery"
+
+#: com/polelink/modules/file/ui/configure/FileRecoveryConfigureLayout$1.entityAction(Lcom/polelink/pike/extend/component/crud/base/EntityActionComponent$EntityActionEvent;)V
+msgid "Are you sure to recover file and its versions: "
+msgstr "Are you sure to recover file and its versions: "
+
+#: com/polelink/modules/file/ui/MyFileView$13$1.onClose(Lcom/polelink/pike/extend/component/window/ConfirmDialog;)V
+msgid "Failed"
+msgstr "Failed"
+
+#: com/polelink/modules/file/ui/configure/FileRecoveryConfigureLayout$2.entityAction(Lcom/polelink/pike/extend/component/crud/base/EntityActionComponent$EntityActionEvent;)V
+msgid "Are you sure to delete file and its versions: "
+msgstr "Are you sure to delete files and its versions?"
+
+#: com/polelink/modules/file/ui/configure/FileRecoveryConfigureLayout$5.<init>(Lcom/polelink/modules/file/ui/configure/FileRecoveryConfigureLayout;Lcom/polelink/pike/extend/component/table/PTable;Lcom/polelink/pike/extend/component/querycontainer/LazyEntityContainer;)V
+msgid "Recover"
+msgstr "Recover"
+
+#: com/polelink/modules/file/ui/MyFileView$13.<init>(Lcom/polelink/modules/file/ui/MyFileView;Lcom/polelink/pike/extend/component/table/PTable;Lcom/polelink/pike/extend/component/querycontainer/LazyEntityContainer;)V
+msgid "Delete"
+msgstr "Delete"
+
+#: com/polelink/modules/file/ui/MyFileView$13.handleAction(Lcom/vaadin/event/Action;Ljava/lang/Object;Ljava/lang/Object;)V
+msgid "Please select an item to delete"
+msgstr "Please select an item to delete"
+
+#: com/polelink/modules/file/ui/configure/FileRecoveryConfigureLayout$5.handleAction(Lcom/vaadin/event/Action;Ljava/lang/Object;Ljava/lang/Object;)V
+msgid "Are you sure to delete versions?"
+msgstr "Are you sure to delete versions?"
+
+#: com/polelink/modules/file/ui/configure/FileRecoveryConfigureLayout$5.handleAction(Lcom/vaadin/event/Action;Ljava/lang/Object;Ljava/lang/Object;)V
+msgid "All items are not disable,can not delete them."
+msgstr "All items are not disabled,can not delete them"
+
+#: com/polelink/modules/file/ui/configure/FileRecoveryConfigureLayout$5.handleAction(Lcom/vaadin/event/Action;Ljava/lang/Object;Ljava/lang/Object;)V
+msgid "Please select an item to recover"
+msgstr "Please select an item to recover"
+
+#: com/polelink/modules/file/ui/configure/FileRecoveryConfigureLayout$5.handleAction(Lcom/vaadin/event/Action;Ljava/lang/Object;Ljava/lang/Object;)V
+msgid "Are you sure to recover version? "
+msgstr "Are you sure to recover version?"
+
+#: com/polelink/modules/file/ui/configure/FileRecoveryConfigureLayout$5.handleAction(Lcom/vaadin/event/Action;Ljava/lang/Object;Ljava/lang/Object;)V
+msgid "All items are not disable,can not recover them."
+msgstr "All items are not disabled,can not recover them"
+
+#: com/polelink/modules/file/ui/configure/FileRecoveryConfigureLayout.createCategoryLayout()Lcom/vaadin/ui/HorizontalLayout;
+msgid "Category"
+msgstr "Category"
+
+#: com/polelink/modules/file/ui/dashlet/view/FileDashletView.<init>(Ljava/util/Map;Ljava/util/List;I)V
+msgid "Files count:       "
+msgstr "Files count:    "
+
+#: com/polelink/modules/file/ui/FileConfigureUI.getConfigureNodes()Ljava/util/List;
+msgid "File Configure"
+msgstr "File Configure"
+
+#: com/polelink/modules/file/ui/FileConfigureUI.getConfigureNodes()Ljava/util/List;
+msgid "File Parameter"
+msgstr "File Parameter"
+
+#: com/polelink/modules/file/ui/FileConfigureUI.getConfigureNodes()Ljava/util/List;
+msgid "File Source"
+msgstr "File Source"
+
+#: com/polelink/modules/file/ui/FileConfigureUI.getConfigureNodes()Ljava/util/List;
+msgid "File Status"
+msgstr "File Status"
+
+#: com/polelink/modules/file/ui/FileConfigureUI.getConfigureNodes()Ljava/util/List;
+msgid "Operation Type"
+msgstr "Operation Type"
+
+#: com/polelink/modules/file/ui/FileConfigureUI.getConfigureNodes()Ljava/util/List;
+msgid "File Recovery"
+msgstr "File Recovery"
+
+#: com/polelink/modules/file/ui/FileConfigureUI.getConfigureNodes()Ljava/util/List;
+msgid "File Category Recovery"
+msgstr "File Category Recovery"
+
+#: com/polelink/modules/file/ui/FileListPlugin.getText()Ljava/lang/String;
+msgid "File List"
+msgstr "File List"
+
+#: com/polelink/modules/file/ui/MyFileView$8$1.submit(Lcom/polelink/utils/vaadin/multifileupload/ui/UploadStateWindow$UploadSubmitEvent;)V
+msgid "Upload Failed"
+msgstr "Upload failed"
+
+#: com/polelink/modules/file/ui/MyFileView$8$2.beforeDownload(Lcom/polelink/pike/extend/component/file/AdvancedFileDownloader$DownloaderEvent;)Z
+msgid "File version is disable: "
+msgstr "File version is disable:"
+
+#: com/polelink/modules/file/ui/FileListView$10$2.beforeDownload(Lcom/polelink/pike/extend/component/file/AdvancedFileDownloader$DownloaderEvent;)Z
+msgid "File version is not exist:"
+msgstr "File version is not exists:"
+
+#: com/polelink/modules/file/ui/FileListView$10$4.beforeDownload(Lcom/polelink/pike/extend/component/file/AdvancedFileDownloader$DownloaderEvent;)Z
+msgid " have no enabled version. "
+msgstr " have no enabled version."
+
+#: com/polelink/modules/file/ui/MyFileView$8.generateCell(Lcom/vaadin/ui/Table;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+msgid "Upload"
+msgstr "Upload"
+
+#: com/polelink/modules/file/ui/MyFileView$8.generateCell(Lcom/vaadin/ui/Table;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+msgid "Upload new version"
+msgstr "Upload new version"
+
+#: com/polelink/modules/file/ui/MyFileView$8.generateCell(Lcom/vaadin/ui/Table;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+msgid "Download current version"
+msgstr "Download current version"
+
+#: com/polelink/modules/file/ui/MyFileView$8.generateCell(Lcom/vaadin/ui/Table;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+msgid "Download All"
+msgstr "Download All"
+
+#: com/polelink/modules/file/ui/MyFileView$8.generateCell(Lcom/vaadin/ui/Table;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+msgid "Download all version"
+msgstr "Download all version"
+
+#: com/polelink/modules/file/ui/MyFileView$10.entityAction(Lcom/polelink/pike/extend/component/crud/base/EntityActionComponent$EntityActionEvent;)V
+msgid "Are you sure to delete files and its versions?"
+msgstr "Are you sure to delete files and its versions?"
+
+#: com/polelink/modules/file/ui/FileListView$15.handleAction(Lcom/vaadin/event/Action;Ljava/lang/Object;Ljava/lang/Object;)V
+msgid "Are you sure to delete all those file versions?"
+msgstr "Are you sure to delete all those file versions?"
+
+#: com/polelink/modules/file/ui/FileListView$3.excute(Ljava/lang/Object;Ljava/lang/Object;)V
+msgid "Confirm to delete item & its files?"
+msgstr "Confirm to delete item & its files?"
+
+#: com/polelink/modules/file/ui/MyFileView.buildFileLayout()V
+msgid "LatestNo"
+msgstr "LatestNo"
+
+#: com/polelink/modules/file/ui/MyFileView.buildFileLayout()V
+msgid "Click to download all selected versions."
+msgstr "Click to download all selected versions"
+
+#: com/polelink/modules/file/ui/MyFileView.buildFileLayout()V
+msgid "Upload File"
+msgstr "Upload File"
+
+#: com/polelink/modules/file/ui/MyFileListPlugin.getText()Ljava/lang/String;
+msgid "My File"
+msgstr "My File"
+
+#: com/polelink/modules/file/ui/MyFileView$13.handleAction(Lcom/vaadin/event/Action;Ljava/lang/Object;Ljava/lang/Object;)V
+msgid "Are you sure to delete all those files versions?"
+msgstr "Are you sure to delete all those file versions?"
+
+#: com/polelink/modules/file/ui/MyFileView$8$2.beforeDownload(Lcom/polelink/pike/extend/component/file/AdvancedFileDownloader$DownloaderEvent;)Z
+msgid "File store path parameter was not set"
+msgstr "File store path parameter was not set."
+
+#: com/polelink/modules/file/ui/MyFileView$8$2.beforeDownload(Lcom/polelink/pike/extend/component/file/AdvancedFileDownloader$DownloaderEvent;)Z
+msgid "File version is not exist: "
+msgstr "File version is not exists:"
+
+#: com/polelink/modules/file/ui/MyFileView$8$4.beforeDownload(Lcom/polelink/pike/extend/component/file/AdvancedFileDownloader$DownloaderEvent;)Z
+msgid " have no enabled version"
+msgstr " have no enabled version"
+
+#: com/polelink/modules/file/ui/MyFileView.createCategoryLayout()Lcom/vaadin/ui/HorizontalLayout;
+msgid "File Category"
+msgstr "File Category"

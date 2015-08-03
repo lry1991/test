@@ -1,0 +1,457 @@
+# Chinese translations for p package.
+# Copyright (C) 2014 THE p'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the p package.
+# Automatically generated, 2014.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: p 3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-06-25 22:25+0800\n"
+"PO-Revision-Date: 2014-07-22 16:37+0800\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: zh\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: com/polelink/modules/file/entity/FileVersionBean.getFilePath()Ljava/lang/String;
+msgid "Parameter File_Store_Path not set"
+msgstr "未设置参数File_Store_Path"
+
+#: com/polelink/modules/file/impl/FileDownloadImpl$4.save()Z
+msgid "Are you sure to select these files?"
+msgstr "确定选择这些文件?"
+
+#: com/polelink/modules/file/impl/FileDownloadImpl$8.valueChanged(Ljava/lang/Object;Z)V
+msgid "Are you sure to select file:{0} and version {1}"
+msgstr "确定选择文件 {0} 和其版本 {1}"
+
+#: com/polelink/modules/file/impl/FileDownloadImpl.getFileSelectionLayout(Ljava/util/List;Z)Lcom/vaadin/ui/Component;
+msgid "File Suffix:"
+msgstr "文件后缀名:"
+
+#: com/polelink/modules/file/impl/FileDownloadImpl.getFileSelectionWindow(Ljava/util/List;Z)Lcom/polelink/pike/extend/component/window/PWindow;
+msgid "Select File [{0}]"
+msgstr "选择文件 [{0}]"
+
+#: com/polelink/modules/file/impl/FileDownloadImpl.getFileSelectionWindow(Ljava/util/List;Z)Lcom/polelink/pike/extend/component/window/PWindow;
+msgid "Click to confirm selected files"
+msgstr "点击确认选择的文件"
+
+#: com/polelink/modules/file/impl/FileDownloadImpl.getFileSelectionWindow(Ljava/util/List;Z)Lcom/polelink/pike/extend/component/window/PWindow;
+msgid "Select Files [{0}]"
+msgstr "选择文件 [{0}]"
+
+#: com/polelink/modules/file/impl/FileDownloadImpl.checkFileNoExists(Ljava/lang/String;)Z
+msgid "File No. can't be empty"
+msgstr "文件编号不能为空."
+
+#: com/polelink/modules/file/impl/FileDownloadImpl.checkFileNoExists(Ljava/lang/String;)Z
+msgid "File No. {0} belongs to file:{1},but it's disable"
+msgstr "文件编号 {0} 对应的文件名 {1} 已失效"
+
+#: com/polelink/modules/file/impl/FileDownloadImpl.checkFileNoExists(Ljava/lang/String;)Z
+msgid "File No. {0} is disable"
+msgstr "文件 {0} 已失效:"
+
+#: com/polelink/modules/file/impl/FileDownloadImpl.downloadFile(Ljava/lang/String;Ljava/lang/String;)Ljava/io/InputStream;
+msgid "File no. is empty!"
+msgstr "文件号为空."
+
+#: com/polelink/modules/file/impl/FileDownloadImpl.downloadFile(Ljava/lang/String;Ljava/lang/String;)Ljava/io/InputStream;
+msgid "File source path is empty!"
+msgstr "文件来源路径为空."
+
+#: com/polelink/modules/file/impl/FileUploadImpl.uploadVersion(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/io/InputStream;J)Ljava/lang/String;
+msgid "File does not exists: "
+msgstr "文件不存在:"
+
+#: com/polelink/modules/file/impl/FileUploadImpl.uploadVersion(Ljava/lang/String;Lcom/polelink/modules/file/entity/FileBean;Ljava/lang/String;Ljava/lang/String;Ljava/io/InputStream;J)Ljava/lang/String;
+msgid "Directory does not exists: "
+msgstr "目录不存在:"
+
+#: com/polelink/modules/file/impl/FileUploadImpl.uploadFile(Ljava/lang/String;Lcom/polelink/modules/file/entity/FileBean;Ljava/lang/String;Ljava/lang/String;Ljava/io/InputStream;J)Ljava/lang/String;
+msgid "NO Permisson"
+msgstr "没有权限"
+
+#: com/polelink/modules/file/impl/FileUploadImpl$1$1.beforeDownload(Lcom/polelink/pike/extend/component/file/AdvancedFileDownloader$DownloaderEvent;)Z
+msgid "File store path parameter does not set."
+msgstr "服务器文件保存路径不存在"
+
+#: com/polelink/modules/file/ui/MyFileView$8$4.beforeDownload(Lcom/polelink/pike/extend/component/file/AdvancedFileDownloader$DownloaderEvent;)Z
+msgid "File store path is not exist."
+msgstr "服务器文件保存路径不存在"
+
+#: com/polelink/modules/file/impl/FileUploadImpl.uploadVersion(Ljava/lang/String;Lcom/polelink/modules/file/entity/FileBean;Ljava/lang/String;Ljava/lang/String;Ljava/io/InputStream;J)Ljava/lang/String;
+msgid "NO Permission"
+msgstr "没有权限"
+
+#: com/polelink/modules/file/impl/FileUploadImpl.storeFile(Ljava/io/InputStream;Ljava/lang/Long;Ljava/lang/String;Ljava/lang/String;)Z
+msgid "Can not create file: "
+msgstr "不能创建文件:"
+
+#: com/polelink/modules/file/impl/FileUploadImpl.uploadFile(Ljava/lang/String;Lcom/polelink/modules/file/entity/FileBean;Ljava/lang/String;Ljava/lang/String;Ljava/io/InputStream;J)Ljava/lang/String;
+msgid "Can not save file to database: "
+msgstr "不能保存文件到数据库:"
+
+#: com/polelink/modules/file/impl/FileUploadImpl.uploadVersion(Ljava/lang/String;Lcom/polelink/modules/file/entity/FileBean;Ljava/lang/String;Ljava/lang/String;Ljava/io/InputStream;J)Ljava/lang/String;
+msgid "Can not save file to directory: "
+msgstr "不能保存文件到目录:"
+
+#: com/polelink/modules/file/impl/FileUploadImpl.uploadFile(Ljava/lang/String;Lcom/polelink/modules/file/entity/FileBean;Ljava/lang/String;Ljava/lang/String;Ljava/io/InputStream;J)Ljava/lang/String;
+msgid "File's size must greater than zero."
+msgstr "文件大小必须大于 0."
+
+#: com/polelink/modules/file/impl/FileUploadImpl.uploadVersion(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/io/InputStream;J)Ljava/lang/String;
+msgid "File content is empty."
+msgstr "文件内容为空."
+
+#: com/polelink/modules/file/impl/FileUploadImpl.uploadFile(Ljava/lang/String;Lcom/polelink/modules/file/entity/FileBean;Ljava/lang/String;Ljava/lang/String;Ljava/io/InputStream;J)Ljava/lang/String;
+msgid "Can not found the file."
+msgstr "找不到文件."
+
+#: com/polelink/modules/file/impl/FileUploadImpl.uploadVersion(Ljava/lang/String;Lcom/polelink/modules/file/entity/FileBean;Ljava/lang/String;Ljava/lang/String;Ljava/io/InputStream;J)Ljava/lang/String;
+msgid "File's size must greater than zero. "
+msgstr "文类大小必须大于 0."
+
+#: com/polelink/modules/file/impl/FileUploadImpl.uploadVersion(Ljava/lang/String;Lcom/polelink/modules/file/entity/FileBean;Ljava/lang/String;Ljava/lang/String;Ljava/io/InputStream;J)Ljava/lang/String;
+msgid "File content is empty. "
+msgstr "文件内容为空."
+
+#: com/polelink/modules/file/impl/FileUploadImpl.uploadVersion(Ljava/lang/String;Lcom/polelink/modules/file/entity/FileBean;Ljava/lang/String;Ljava/lang/String;Ljava/io/InputStream;J)Ljava/lang/String;
+msgid "Not found the file. "
+msgstr "找不到文件."
+
+#: com/polelink/modules/file/impl/FileUploadImpl.getLatestVersionBean(Ljava/lang/String;Ljava/lang/String;Lcom/polelink/pike/core/database/entity/PikeEnabledStatus;)Lcom/polelink/modules/file/entity/FileVersionBean;
+msgid "File name is empty."
+msgstr "文件名为空."
+
+#: com/polelink/modules/file/impl/FileUploadImpl.uploadFile(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/io/InputStream;J)Ljava/lang/String;
+msgid "No file source found:"
+msgstr "没有找到文件来源:"
+
+#: com/polelink/modules/file/impl/FileUploadImpl.uploadFile(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/io/InputStream;J)Ljava/lang/String;
+msgid "File is exists:"
+msgstr "文件已存在:"
+
+#: com/polelink/modules/file/impl/FileUploadImpl.uploadVersion(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/io/InputStream;J)Ljava/lang/String;
+msgid "File size must greater than zero."
+msgstr "文件大小必须大于 0 ."
+
+#: com/polelink/modules/file/impl/FileUploadImpl.getFileNo(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+msgid "Version name is empty."
+msgstr "版本为空."
+
+#: com/polelink/modules/file/impl/FileUploadImpl.getFileVersionBeans(Ljava/lang/String;Ljava/lang/String;Lcom/polelink/pike/core/database/entity/PikeEnabledStatus;)Ljava/util/List;
+msgid "Disabled file: "
+msgstr "禁用的文件:"
+
+#: com/polelink/modules/file/impl/FileUploadImpl.getLatestVersionBean(Ljava/lang/String;Ljava/lang/String;Lcom/polelink/pike/core/database/entity/PikeEnabledStatus;)Lcom/polelink/modules/file/entity/FileVersionBean;
+msgid "Disabled version: "
+msgstr "已禁用版本:"
+
+#: com/polelink/modules/file/impl/FileUploadImpl.getFileNo(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+msgid "Version not found: "
+msgstr "版本不存在:"
+
+#: com/polelink/modules/file/impl/FileUploadImpl.getFileVersionBeans(Ljava/lang/String;Ljava/lang/String;Lcom/polelink/pike/core/database/entity/PikeEnabledStatus;)Ljava/util/List;
+msgid "File not found: "
+msgstr "文件不存在:"
+
+#: com/polelink/modules/file/impl/FileUploadImpl.getFileNo(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+msgid "Disable category: "
+msgstr "已禁用类别"
+
+#: com/polelink/modules/file/impl/FileUploadImpl.getLatestVersionBean(Ljava/lang/String;Ljava/lang/String;Lcom/polelink/pike/core/database/entity/PikeEnabledStatus;)Lcom/polelink/modules/file/entity/FileVersionBean;
+msgid "File was disabled: "
+msgstr "文件已失效:"
+
+#: com/polelink/modules/file/impl/FileUploadImpl.getLatestVersionBean(Ljava/lang/String;Ljava/lang/String;Lcom/polelink/pike/core/database/entity/PikeEnabledStatus;)Lcom/polelink/modules/file/entity/FileVersionBean;
+msgid "File not found any version with enabled:"
+msgstr "文件查不到任何有效版本"
+
+#: com/polelink/modules/file/impl/FileUploadImpl.getLatestVersionBean(Ljava/lang/String;Ljava/lang/String;Lcom/polelink/pike/core/database/entity/PikeEnabledStatus;)Lcom/polelink/modules/file/entity/FileVersionBean;
+msgid "No version found for file: "
+msgstr "文件没有任何版本:"
+
+#: com/polelink/modules/file/impl/FileUploadImpl.getLatestVersionBean(Ljava/lang/String;Ljava/lang/String;Lcom/polelink/pike/core/database/entity/PikeEnabledStatus;)Lcom/polelink/modules/file/entity/FileVersionBean;
+msgid "Disabled category: "
+msgstr "禁用的文件类别:"
+
+#: com/polelink/modules/file/impl/FileUploadImpl.getFileVersionBeans(Ljava/lang/String;Ljava/lang/String;Lcom/polelink/pike/core/database/entity/PikeEnabledStatus;)Ljava/util/List;
+msgid "File name is empty!"
+msgstr "文件名为空."
+
+#: com/polelink/modules/file/impl/FileUploadImpl.getFileVersionBeans(Ljava/lang/String;Ljava/lang/String;Lcom/polelink/pike/core/database/entity/PikeEnabledStatus;)Ljava/util/List;
+msgid "Disable category:"
+msgstr "禁用文件类别:"
+
+#: com/polelink/modules/file/impl/FileUploadImpl.modifyCategory(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Z
+msgid "Category name is empty."
+msgstr "文件类别名为空"
+
+#: com/polelink/modules/file/impl/FileUploadImpl.createCategoryNotExists(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Z
+msgid "Category name is empty"
+msgstr "文件类别名为空"
+
+#: com/polelink/modules/file/impl/FileUploadImpl.createCategoryNotExists(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Z
+msgid "Parent category name can''t create"
+msgstr "新文件类别名为空."
+
+#: com/polelink/modules/file/impl/FileUploadImpl.modifyCategory(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Z
+msgid "New category name is empty."
+msgstr "新文件类别名为空."
+
+#: com/polelink/modules/file/impl/FileUploadImpl.modifyFileSource(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Z
+msgid "Source name is empty."
+msgstr "文件来源名为空."
+
+#: com/polelink/modules/file/impl/FileUploadImpl.modifyFileSource(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Z
+msgid "New source name is empty."
+msgstr "新文件来源名为空."
+
+#: com/polelink/modules/file/ui/MyFileView$8.generateCell(Lcom/vaadin/ui/Table;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+msgid "Download"
+msgstr "下载"
+
+#: com/polelink/modules/file/macro/ImageMacro.clickMacro(Ljava/lang/Object;)V
+msgid "Image Viewer"
+msgstr "图片预览"
+
+#: com/polelink/modules/file/search/FileSearch.getHelpInfo()Ljava/lang/String;
+msgid "Prefix for search file using file name"
+msgstr "根据文件名称搜索文件"
+
+#: com/polelink/modules/file/service/FileLogComponent.getComponentCaption()Ljava/lang/String;
+msgid "File Log"
+msgstr "文件日志"
+
+#: com/polelink/modules/file/service/FileLogComponent.getHint()Ljava/lang/String;
+msgid "View File Log"
+msgstr "查看文件日志"
+
+#: com/polelink/modules/file/service/FileOperationComponent.getComponentCaption()Ljava/lang/String;
+msgid "File Operation Log"
+msgstr "文件操作日志"
+
+#: com/polelink/modules/file/service/FileOperationComponent.getHint()Ljava/lang/String;
+msgid "View File Operations"
+msgstr "查看文件操作纪录"
+
+#: com/polelink/modules/file/service/FileVersionComponent.refresh([Ljava/lang/Object;)V
+msgid "Class must have property named:"
+msgstr "类别必须含有属性名"
+
+#: com/polelink/modules/file/ui/MyFileView$8$4.beforeDownload(Lcom/polelink/pike/extend/component/file/AdvancedFileDownloader$DownloaderEvent;)Z
+msgid "File store path parameter was not set."
+msgstr "文件管理模块服务器保存路径不存在"
+
+#: com/polelink/modules/file/ui/FilePlugin.getText()Ljava/lang/String;
+msgid "File"
+msgstr "文件"
+
+#: com/polelink/modules/file/service/FileRalationComponent.getHint()Ljava/lang/String;
+msgid "File Related."
+msgstr "关联文件"
+
+#: com/polelink/modules/file/service/FileRalationComponent.refresh([Ljava/lang/Object;)V
+msgid "Click to show detail information"
+msgstr "点击显示详细信息"
+
+#: com/polelink/modules/file/service/FileVersionComponent$1.generateCell(Lcom/vaadin/ui/Table;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+msgid "Download file"
+msgstr "下载文件"
+
+#: com/polelink/modules/file/service/FileVersionComponent.getComponentCaption()Ljava/lang/String;
+msgid "File Version"
+msgstr "文件版本"
+
+#: com/polelink/modules/file/service/FileVersionComponent.getHint()Ljava/lang/String;
+msgid "View File Versions"
+msgstr "查看文件版本"
+
+#: com/polelink/modules/file/service/FileVersionComponent.getFileBeanByFileNo(Ljava/lang/String;)Lcom/polelink/modules/file/entity/FileBean;
+msgid "Can not find version of file no:"
+msgstr "找不到对应的版本"
+
+#: com/polelink/modules/file/ui/configure/FileCategoryRecoveryConfigureLayout$1.entityAction(Lcom/polelink/pike/extend/component/crud/base/EntityActionComponent$EntityActionEvent;)V
+msgid "Are you sure to recover category: "
+msgstr "确定恢复类别:"
+
+#: com/polelink/modules/file/ui/configure/FileCategoryRecoveryConfigureLayout$2.entityAction(Lcom/polelink/pike/extend/component/crud/base/EntityActionComponent$EntityActionEvent;)V
+msgid "Are you sure to delete file category and all child categories: "
+msgstr "确定删除文件类别和它的所有子类"
+
+#: com/polelink/modules/file/ui/configure/FileRecoveryConfigureLayout.buildFileLayout()V
+msgid "Recovery"
+msgstr "恢复"
+
+#: com/polelink/modules/file/ui/configure/FileRecoveryConfigureLayout$1.entityAction(Lcom/polelink/pike/extend/component/crud/base/EntityActionComponent$EntityActionEvent;)V
+msgid "Are you sure to recover file and its versions: "
+msgstr "确定恢复文件和它的所有版本"
+
+#: com/polelink/modules/file/ui/MyFileView$13$1.onClose(Lcom/polelink/pike/extend/component/window/ConfirmDialog;)V
+msgid "Failed"
+msgstr "失败"
+
+#: com/polelink/modules/file/ui/configure/FileRecoveryConfigureLayout$2.entityAction(Lcom/polelink/pike/extend/component/crud/base/EntityActionComponent$EntityActionEvent;)V
+msgid "Are you sure to delete file and its versions: "
+msgstr "确定删除文件和它的所有版本"
+
+#: com/polelink/modules/file/ui/configure/FileRecoveryConfigureLayout$5.<init>(Lcom/polelink/modules/file/ui/configure/FileRecoveryConfigureLayout;Lcom/polelink/pike/extend/component/table/PTable;Lcom/polelink/pike/extend/component/querycontainer/LazyEntityContainer;)V
+msgid "Recover"
+msgstr "恢复"
+
+#: com/polelink/modules/file/ui/MyFileView$13.<init>(Lcom/polelink/modules/file/ui/MyFileView;Lcom/polelink/pike/extend/component/table/PTable;Lcom/polelink/pike/extend/component/querycontainer/LazyEntityContainer;)V
+msgid "Delete"
+msgstr "删除"
+
+#: com/polelink/modules/file/ui/MyFileView$13.handleAction(Lcom/vaadin/event/Action;Ljava/lang/Object;Ljava/lang/Object;)V
+msgid "Please select an item to delete"
+msgstr "请选择一条记录进行删除"
+
+#: com/polelink/modules/file/ui/configure/FileRecoveryConfigureLayout$5.handleAction(Lcom/vaadin/event/Action;Ljava/lang/Object;Ljava/lang/Object;)V
+msgid "Are you sure to delete versions?"
+msgstr "确定删除版本?"
+
+#: com/polelink/modules/file/ui/configure/FileRecoveryConfigureLayout$5.handleAction(Lcom/vaadin/event/Action;Ljava/lang/Object;Ljava/lang/Object;)V
+msgid "All items are not disable,can not delete them."
+msgstr "所有记录均不是无效的，无法删除"
+
+#: com/polelink/modules/file/ui/configure/FileRecoveryConfigureLayout$5.handleAction(Lcom/vaadin/event/Action;Ljava/lang/Object;Ljava/lang/Object;)V
+msgid "Please select an item to recover"
+msgstr "请选择记录进行恢复"
+
+#: com/polelink/modules/file/ui/configure/FileRecoveryConfigureLayout$5.handleAction(Lcom/vaadin/event/Action;Ljava/lang/Object;Ljava/lang/Object;)V
+msgid "Are you sure to recover version? "
+msgstr "确定恢复版本?"
+
+#: com/polelink/modules/file/ui/configure/FileRecoveryConfigureLayout$5.handleAction(Lcom/vaadin/event/Action;Ljava/lang/Object;Ljava/lang/Object;)V
+msgid "All items are not disable,can not recover them."
+msgstr "所有记录均不是无效的，不能恢复"
+
+#: com/polelink/modules/file/ui/configure/FileRecoveryConfigureLayout.createCategoryLayout()Lcom/vaadin/ui/HorizontalLayout;
+msgid "Category"
+msgstr "类别"
+
+#: com/polelink/modules/file/ui/dashlet/view/FileDashletView.<init>(Ljava/util/Map;Ljava/util/List;I)V
+msgid "Files count:       "
+msgstr "文件数量:"
+
+#: com/polelink/modules/file/ui/FileConfigureUI.getConfigureNodes()Ljava/util/List;
+msgid "File Configure"
+msgstr "文件配置"
+
+#: com/polelink/modules/file/ui/FileConfigureUI.getConfigureNodes()Ljava/util/List;
+msgid "File Parameter"
+msgstr "文件参数"
+
+#: com/polelink/modules/file/ui/FileConfigureUI.getConfigureNodes()Ljava/util/List;
+msgid "File Source"
+msgstr "文件来源"
+
+#: com/polelink/modules/file/ui/FileConfigureUI.getConfigureNodes()Ljava/util/List;
+msgid "File Status"
+msgstr "文件状态"
+
+#: com/polelink/modules/file/ui/FileConfigureUI.getConfigureNodes()Ljava/util/List;
+msgid "Operation Type"
+msgstr "操作类别"
+
+#: com/polelink/modules/file/ui/FileConfigureUI.getConfigureNodes()Ljava/util/List;
+msgid "File Recovery"
+msgstr "文件恢复"
+
+#: com/polelink/modules/file/ui/FileConfigureUI.getConfigureNodes()Ljava/util/List;
+msgid "File Category Recovery"
+msgstr "文件类别恢复"
+
+#: com/polelink/modules/file/ui/FileListPlugin.getText()Ljava/lang/String;
+msgid "File List"
+msgstr "文件列表"
+
+#: com/polelink/modules/file/ui/MyFileView$8$1.submit(Lcom/polelink/utils/vaadin/multifileupload/ui/UploadStateWindow$UploadSubmitEvent;)V
+msgid "Upload Failed"
+msgstr "上传失败"
+
+#: com/polelink/modules/file/ui/MyFileView$8$2.beforeDownload(Lcom/polelink/pike/extend/component/file/AdvancedFileDownloader$DownloaderEvent;)Z
+msgid "File version is disable: "
+msgstr "文件版本不可用"
+
+#: com/polelink/modules/file/ui/FileListView$10$2.beforeDownload(Lcom/polelink/pike/extend/component/file/AdvancedFileDownloader$DownloaderEvent;)Z
+msgid "File version is not exist:"
+msgstr "文件版本不存在"
+
+#: com/polelink/modules/file/ui/FileListView$10$4.beforeDownload(Lcom/polelink/pike/extend/component/file/AdvancedFileDownloader$DownloaderEvent;)Z
+msgid " have no enabled version. "
+msgstr "不存在可用版本"
+
+#: com/polelink/modules/file/ui/MyFileView$8.generateCell(Lcom/vaadin/ui/Table;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+msgid "Upload"
+msgstr "上传"
+
+#: com/polelink/modules/file/ui/MyFileView$8.generateCell(Lcom/vaadin/ui/Table;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+msgid "Upload new version"
+msgstr "上传新版本"
+
+#: com/polelink/modules/file/ui/MyFileView$8.generateCell(Lcom/vaadin/ui/Table;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+msgid "Download current version"
+msgstr "下载当前版本"
+
+#: com/polelink/modules/file/ui/MyFileView$8.generateCell(Lcom/vaadin/ui/Table;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+msgid "Download All"
+msgstr "下载全部"
+
+#: com/polelink/modules/file/ui/MyFileView$8.generateCell(Lcom/vaadin/ui/Table;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+msgid "Download all version"
+msgstr "下载全部版本"
+
+#: com/polelink/modules/file/ui/MyFileView$10.entityAction(Lcom/polelink/pike/extend/component/crud/base/EntityActionComponent$EntityActionEvent;)V
+msgid "Are you sure to delete files and its versions?"
+msgstr "确定删除文件和它的所有版本"
+
+#: com/polelink/modules/file/ui/FileListView$15.handleAction(Lcom/vaadin/event/Action;Ljava/lang/Object;Ljava/lang/Object;)V
+msgid "Are you sure to delete all those file versions?"
+msgstr "确定删除文件所有版本"
+
+#: com/polelink/modules/file/ui/FileListView$3.excute(Ljava/lang/Object;Ljava/lang/Object;)V
+msgid "Confirm to delete item & its files?"
+msgstr "确定删除这些文件?"
+
+#: com/polelink/modules/file/ui/MyFileView.buildFileLayout()V
+msgid "LatestNo"
+msgstr "最新版本"
+
+#: com/polelink/modules/file/ui/MyFileView.buildFileLayout()V
+msgid "Click to download all selected versions."
+msgstr "点击打包下载所有选择的版本"
+
+#: com/polelink/modules/file/ui/MyFileView.buildFileLayout()V
+msgid "Upload File"
+msgstr "上传文件"
+
+#: com/polelink/modules/file/ui/MyFileListPlugin.getText()Ljava/lang/String;
+msgid "My File"
+msgstr "我的文件"
+
+#: com/polelink/modules/file/ui/MyFileView$13.handleAction(Lcom/vaadin/event/Action;Ljava/lang/Object;Ljava/lang/Object;)V
+msgid "Are you sure to delete all those files versions?"
+msgstr "确定删除文件所有版本"
+
+#: com/polelink/modules/file/ui/MyFileView$8$2.beforeDownload(Lcom/polelink/pike/extend/component/file/AdvancedFileDownloader$DownloaderEvent;)Z
+msgid "File store path parameter was not set"
+msgstr "服务器文件保存路径不存在"
+
+#: com/polelink/modules/file/ui/MyFileView$8$2.beforeDownload(Lcom/polelink/pike/extend/component/file/AdvancedFileDownloader$DownloaderEvent;)Z
+msgid "File version is not exist: "
+msgstr "文件版本不存在"
+
+#: com/polelink/modules/file/ui/MyFileView$8$4.beforeDownload(Lcom/polelink/pike/extend/component/file/AdvancedFileDownloader$DownloaderEvent;)Z
+msgid " have no enabled version"
+msgstr "不存在可用版本"
+
+#: com/polelink/modules/file/ui/MyFileView.createCategoryLayout()Lcom/vaadin/ui/HorizontalLayout;
+msgid "File Category"
+msgstr "文件类别"

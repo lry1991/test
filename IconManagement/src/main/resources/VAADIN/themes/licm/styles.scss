@@ -1,0 +1,10 @@
+@import "variables";
+@import "valotest";
+@import "login";
+@import "menu";
+
+.licm {
+   @include valotest;
+   @include  dashboard-login-view;
+   @include pike-menu;
+}
